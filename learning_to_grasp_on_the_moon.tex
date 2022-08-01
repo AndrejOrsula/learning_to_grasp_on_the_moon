@@ -1,0 +1,24 @@
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}
+\IEEEoverridecommandlockouts
+\overrideIEEEmargins
+
+\input{_style/dependencies_and_style.tex}
+
+\graphicspath{{./graphics/}}
+
+\begin{document}
+\input{frontmatter/title_and_author.tex}
+
+\begin{abstract}
+	\input{frontmatter/abstract.tex}
+\end{abstract}
+
+\input{content/introduction.tex}
+\input{content/related_work.tex}
+\input{content/methods.tex}
+\input{content/results.tex}
+\input{content/discussion_and_conclusion.tex}
+
+\bibliographystyle{bibliography/_style/IEEEtran}
+\bibliography{bibliography/bibliography}
+\end{document}
